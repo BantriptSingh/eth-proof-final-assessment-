@@ -1,11 +1,10 @@
 #Token Contract
 
 For this assessment, we will create a contract together to fulfill the following requirements:
-
-This contract will have public variables that store the details about your coin (Token Name, Token Abbrv., Total Supply).
-This contract will have a mapping of addresses to balances (address => uint).
-This will have a mint function that takes two parameters: an address and a value. The function then increases the total supply by that number and increases the balance of the address by that amount.
-This contract will have a burn function, which works the opposite of the mint function, as it will destroy tokens. It will take an address and value just like the mint functions. It will then deduct the value from the total supply and from the balance of the address.
+1).This contract will have public variables that store the details about your coin (Token Name, Token Abbrv., Total Supply).
+2).This contract will have a mapping of addresses to balances (address => uint).
+3).This will have a mint function that takes two parameters: an address and a value. The function then increases the total supply by that number and increases the balance of the address by that amount.
+4).This contract will have a burn function, which works the opposite of the mint function, as it will destroy tokens. It will take an address and value just like the mint functions. It will then deduct the value from the total supply and from the balance of the address.
 Lastly, The burn function should have conditionals to make sure the balance of account is greater than or equal to the amount that is supposed to be burned.
 
 #Description
@@ -25,6 +24,8 @@ Once the code is compiled, you can deploy the contract by clicking on the "Deplo
 
 Once the contract is deployed, you can interact with it by calling the different functions.
 
+
+
 #Format of the code given by Metacrafters team
 
 contract MyToken {
@@ -39,6 +40,8 @@ contract MyToken {
 
 }
 
+
+
 #some important ecplanations to understand it better.
 
 Constructor
@@ -49,6 +52,8 @@ The mint function is responsible for creating new tokens and assigning them to a
 
 Burn Function
 The burn function is responsible for destroying tokens from a specified address. This decreases both the total supply of the tokens and the balance of the specified address.
+
+
 
 #License
 
