@@ -8,10 +8,13 @@ For this assessment, we will create a contract together to fulfill the following
 Lastly, The burn function should have conditionals to make sure the balance of account is greater than or equal to the amount that is supposed to be burned.
 
 #Description
+
 This program is a simple contract written in Solidity, a programming language used for developing smart contracts on the Ethereum blockchain.
 
 #Getting Started
+
 #Executing program
+
 To run this program, you can use Remix, an online Solidity IDE. To get started, go to the Remix website at https://remix.ethereum.org/.
 
 Once you are on the Remix website, create a new file by clicking on the "+" icon in the left-hand sidebar. Save the file with a .sol extension
